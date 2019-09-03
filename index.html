@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Input CountDown Timer</title>
+</head>
+
+<body>
+  <form id="timer-form">
+    <div>
+      <h2>Minutes:</h2> <input type="text" id="mns" name="mns" value="0" size="3" maxlength="3" /> &nbsp; &nbsp;
+    </div>
+    <div>
+      <h2>Seconds:</h2> <input type="text" id="scs" name="scs" value="0" size="2" maxlength="2" /><br />
+    </div>
+    <input type="button" id="btnct" value="START" onclick="countdownTimer()" />
+    <div>
+      <h2>Countdown Timer:</h2> &nbsp; <div id="span-div"><span id="showmns">00</span>:<span id="showscs">00</span></div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
