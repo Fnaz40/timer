@@ -11,8 +11,6 @@ let ctsecs = 0;
 let startchr = 0;       // used to control when to read data 
 
 function countdownTimer() {
-
-
   if (startchr == 0 && document.getElementById('mns') && document.getElementById('scs')) {
     // yeh dekhne ke liye ke integer number use hoon
     ctmnts = parseInt(document.getElementById('mns').value) + 0;
