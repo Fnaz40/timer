@@ -2,6 +2,7 @@ body{
     background-image: url(img/bg-img.jpeg);
     background-size: cover;
     height: -webkit-fill-available;
+    background-repeat: no-repeat;
 } 
 #timer-form{
     display: flex;
